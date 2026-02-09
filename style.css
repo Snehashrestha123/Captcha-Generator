@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: url("captcha.png") no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.captcha-wrapper {
+  background: white;
+  width: 350px;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.captcha-box {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  background: #f1f1f1;
+  padding: 12px;
+  margin: 15px 0;
+  user-select: none;
+}
+
+#userInput {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#message {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 6px;
+  background: #4CAF50;
+  color: white;
+}
+
+#restartBtn {
+  background: #f44336;
+}
+
+button:hover {
+  opacity: 0.9;
+}
